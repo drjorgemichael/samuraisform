@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <link rel="stylesheet" href="recrutamento.css" />
+</head>  
+<body>
+    <form action="https://formsubmit.co/drjorgemichael@hotmail.com" method="POST">
+
+            <div class="topo">
+            <img src="img/logo-samurai2.png" alt="Logo Samurais" class="logo-lateral">
+            <h1 id="titulo">Recrutamento Equipe Samurais</h1>
+            </div>
+
+        <p id="subtitulo"><strong>ÁREA DE CADASTRO</strong></p><br>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome Completo</strong></label>
+                <input type="text" name="nome_completo" id="nome" required />
+            </div><br>
+
+            <div class="campo medio">
+                <label><strong>Nome de "Guerra"</strong></label>
+                <input type="text" name="nickname" id="nickname" required />
+            </div><br>
+
+            <div class="campo medio">
+                <label><strong>Adicione uma foto de rosto</strong></label>
+                <input type="file" name="photo" accept="image/*" required />
+            </div><br>
+
+            <div class="linha-dupla">
+            <div class="campo">
+                <label><strong>Data de Nascimento</strong></label>
+                <input type="date" name="birthdate" id="birthdate" min="1970-01-01" max="2007-12-31" required />
+            </div>
+
+            <div class="campo">
+                <label><strong>Idade</strong></label>
+                <input type="number" name="age" id="age" min="18" max="55" readonly />
+            </div></div>
+
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div><br>
+
+            <div class="campo medio">
+                <label><strong>Instagram (Se tiver)</strong></label>
+                <input type="text" name="instagram" id="instagram" required />
+            </div><br>
+
+
+            <div class="campo medio">
+                <label><strong>Telefone de Contato</strong></label>
+                <input type="text" name="telefone" id="telefone" required />
+            </div><br>
+
+            <div class="campo">
+                <label><strong>Sexo</strong></label>
+                <label><input type="radio" name="sexo" value="masculino" checked>Masculino</label>
+                <label><input type="radio" name="sexo" value="feminino">Feminino</label>
+            </div><br>
+
+            <div class="campo">
+                <label><strong>Estado Civil</strong></label>
+                <label><input type="radio" name="status" value="solteiro" checked>Solteiro</label>
+                <label><input type="radio" name="status" value="casado">Casado</label>
+                <label><input type="radio" name="status" value="uniao">União Estável</label>
+                <label><input type="radio" name="status" value="divorciado">Divorciado</label>
+                <label><input type="radio" name="status" value="viuvo">Viúvo</label>
+            </div><br>
+
+            <div class="campo medio">
+                <label><strong>Qual sua profissão</strong></label>
+                <input type="text" name="profissao" required />
+            </div><br>
+        </fieldset><br>
+
+        <fieldset class="grupo">
+            <div class="campo medio">
+                <label><strong>Posição Política</strong></label>
+                <select name="posicao_politica" required>
+                    <option></option>
+                    <option>Direita</option>
+                    <option>Esquerda</option>
+                    <option>Centro</option>
+                    <option>Não tenho opinião</option>
+                </select>
+            </div><br>
+
+            <div class="campo medio">
+                <label><strong>Qual a sua religião</strong></label>
+                <select name="religiao" required>
+                    <option></option>
+                    <option>Cristão Protestante</option>
+                    <option>Católico</option>
+                    <option>Espírita</option>
+                    <option>Religiões Afro-brasileiras</option>
+                    <option>Sem religião</option>
+                    <option>Ateu</option>
+                </select>
+            </div><br>
+        </fieldset><br>
+
+        <fieldset class="grupo">
+            <div class="campo medio">
+                <label><strong>Já participou de alguma equipe? Se sim, qual?</strong></label>
+                <input type="text" name="team">
+            </div><br>
+
+            <div id="check">
+                <label><strong>Selecione qual ou quais posições atua ou gostaria de atuar</strong></label><br><br>
+                <input type="checkbox" name="posicao" value="assault"> <label>Assault</label>
+                <input type="checkbox" name="posicao" value="dmr"> <label>DMR</label>
+                <input type="checkbox" name="posicao" value="sniper"> <label>Sniper</label>
+                <input type="checkbox" name="posicao" value="suport"> <label>Suport</label>
+            </div><br>
+
+            <div class="campo">
+                <label><strong>Já possui equipamentos como AEG, AEP, GBB...? Se sim, quais?</strong></label><br>
+                <textarea rows="6" id="equipamentos" name="equipamentos"></textarea>
+            </div>
+        </fieldset><br>
+
+        <button class="botao" type="submit">"Pista Fria", Enviar Cadastro</button><br>
+    </form>
+
+    <!-- Conexão com o JS -->
+    <script src="script.js"></script>
+</body>  
+</html>
