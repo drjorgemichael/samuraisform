@@ -27,11 +27,6 @@
                 <input type="text" name="nickname" id="nickname" required />
             </div><br>
 
-            <div class="campo medio">
-                <label><strong>Adicione uma foto de rosto</strong></label>
-                <input type="file" name="photo" accept="image/*" required />
-            </div><br>
-
             <div class="linha-dupla">
             <div class="campo">
                 <label><strong>Data de Nascimento</strong></label>
@@ -115,10 +110,10 @@
 
             <div id="check">
                 <label><strong>Selecione qual ou quais posições atua ou gostaria de atuar</strong></label><br><br>
-                <input type="checkbox" name="posicao" value="assault"> <label>Assault</label>
-                <input type="checkbox" name="posicao" value="dmr"> <label>DMR</label>
-                <input type="checkbox" name="posicao" value="sniper"> <label>Sniper</label>
-                <input type="checkbox" name="posicao" value="suport"> <label>Suport</label>
+                <input type="checkbox" name="posicao[]" value="Assault"> Assault
+                <input type="checkbox" name="posicao[]" value="DMR"> DMR
+                <input type="checkbox" name="posicao[]" value="Suport"> Suport
+                <input type="checkbox" name="posicao[]" value="Sniper"> Sniper
             </div><br>
 
             <div class="campo">
