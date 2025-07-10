@@ -1,6 +1,6 @@
-# 🏹 Formulário Samurais Airsoft
+# 🏹 Formulário Recrutamento Equipe Samurais
 
-Formulário temático inspirado em estética **militar e samurai**, feito para o recrutamento do time **Samurais Airsoft**. Desenvolvido com foco em identidade visual, responsividade e experiência do usuário.
+Formulário temático inspirado em estética **militar**, feito para o recrutamento da equipe **Samurais**. Desenvolvido com foco em identidade visual, responsividade e experiência do usuário.
 
 ![preview do formulário](img/captura.png)
 
@@ -26,7 +26,7 @@ Formulário temático inspirado em estética **militar e samurai**, feito para o
 
 ## 🧠 Objetivo
 
-Recrutar novos integrantes para o time Samurais com um formulário visual forte, funcional e alinhado à proposta do grupo.
+Recrutar novos integrantes para a equipe Samurais com um formulário visual forte, funcional e alinhado à proposta do grupo.
 
 ---
 
